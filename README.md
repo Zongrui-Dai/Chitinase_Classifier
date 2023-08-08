@@ -9,6 +9,7 @@ Requirements for the Python
 - keras & tensorflow
 - tqdm
 - transformers
+- h5py
 
 ### Application
 
