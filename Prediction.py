@@ -48,7 +48,7 @@ def main():
     np.save('Embedding.npy',np.array(embed_vects_list))
     print('Embedding is finished')
     
-    model_dir = location+'\Chitin_08_06.h5'
+    model_dir = location+'/Chitin_08_06.h5'
     model = tf.keras.models.load_model(model_dir, compile=False)
     embed_vects_list = np.array(embed_vects_list)
     embed_vects_list = embed_vects_list.reshape(embed_vects_list.shape[0],1,1024)
